@@ -1,7 +1,6 @@
 # Missão Prática | Nível 2 | Mundo 4
 
 ## RPG0024  - Posso criar um App de outra forma
-- Adicionando interatividade com o React Native.
 
 ## Objetivos da prática
 
