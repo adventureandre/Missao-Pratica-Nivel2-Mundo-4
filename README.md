@@ -1,18 +1,21 @@
-# Titulo
+# Missão Prática | Nível 2 | Mundo 4
 
-## RPG0023  - Vamos criar um App
+## RPG0024  - Posso criar um App de outra forma
 - Adicionando interatividade com o React Native.
 
 ## Objetivos da prática
 
 
-- Configurar o ambiente de desenvolvimento React Native;
-- Implementar a funcionalidade de entrada de texto em um componente
-React Native;
-- Implementar um Componente de Lista Dinâmica (ScrollView);
-- Implementar componentes React Native para exibir informações de forma
+- Instalar e configurar o Flutter SDK e o ambiente de desenvolvimento
+integrado (IDE) de acordo com as melhores práticas;
+- Empregar Widgets fundamentais, como MaterialApp, Scaffold, AppBar,
+Text e RaisedButton;
+- Aplicar diferentes Widgets para criar uma interface visual atraente e
+funcional;
+- Aplicar o widget ListView para exibir e gerenciar listas de dados;
 dinâmica em listas;
-- Empregar elementos visuais em um aplicativo React Native.
+- Criar e implementar funcionalidades personalizadas para um Widget
+específico.
 
 
 ## Credits
