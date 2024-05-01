@@ -19,18 +19,37 @@ class MyApp extends StatelessWidget {
       home: const HomePage(),
       routes: {
         '/destino1': (context) => const Destinos(
-              imagePath: 'images/goiania.png',
-              title: 'Centro de Goiania',
-              location: 'Goiania, Goias',
-              description:
-                  'Goiânia é a capital do estado de Goiás, localizada na região Centro-Oeste do Brasil. ',
-            ),
+          imagePath: 'images/goiania.png',
+          title: 'Centro de Goiânia',
+          location: 'Goiânia, Goiás',
+          description:
+          'Goiânia é a capital do estado de Goiás, localizada na região Centro-Oeste do Brasil. '
+              'Conhecida por sua arquitetura moderna e amplas avenidas arborizadas, '
+              'a cidade oferece uma mistura vibrante de cultura, história e entretenimento. '
+              'O Centro de Goiânia é o coração da cidade, repleto de lojas, restaurantes '
+              'e pontos turísticos, como o Parque Vaca Brava e o Teatro Goiânia.',
+        ),
         '/destino2': (context) => const Destinos(
-              imagePath: 'images/caldas.png',
-              title: 'Parque aquático',
-              location: 'Caldas Novas, Goias',
-              description: 'caksas',
-            ),
+          imagePath: 'images/caldas.png',
+          title: 'Parque aquático de Caldas Novas',
+          location: 'Caldas Novas, Goiás',
+          description: 'Caldas Novas é famosa por suas águas termais e parques aquáticos. '
+              'Localizado no coração do Brasil, este destino oferece diversão e relaxamento '
+              'para toda a família. O Parque Aquático de Caldas Novas é um dos maiores e mais '
+              'populares parques aquáticos da região, com uma variedade de piscinas, toboáguas, '
+              'cachoeiras e atividades aquáticas para todos os gostos e idades.',
+        ),
+        '/destino3': (context) => const Destinos(
+          imagePath: 'images/pirinopolis.png',
+          title: 'Cachoeiras de Pirenópolis',
+          location: 'Pirenópolis, Goiás',
+          description: 'Pirenópolis é uma encantadora cidade colonial conhecida por suas '
+              'ruas de paralelepípedos, arquitetura preservada e cachoeiras deslumbrantes. '
+              'Localizada aos pés da Serra dos Pirineus, esta cidade histórica é um paraíso '
+              'para os amantes da natureza e aventureiros. As cachoeiras de Pirenópolis são '
+              'um destaque da região, oferecendo trilhas cênicas, piscinas naturais e vistas '
+              'espetaculares das montanhas e da paisagem circundante.',
+        ),
       },
     );
   }
@@ -69,10 +88,17 @@ class HomePage extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text('Park Aquático'),
+              title: const Text('Parque Aquático de Caldas Novas'),
               onTap: () {
                 Navigator.pop(context);
                 Navigator.pushNamed(context, '/destino2');
+              },
+            ),
+            ListTile(
+              title: const Text('Cachoeiras de Pirenópolis'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.pushNamed(context, '/destino3');
               },
             )
           ],
